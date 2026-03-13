@@ -1,0 +1,20 @@
+# Chặn toàn bộ các thư viện nặng ở mọi ngóc ngách
+node_modules/
+
+# Chặn TẤT CẢ các file chứa biến môi trường (mật khẩu, API key) ở cả BE và FE
+.env
+.env.*
+
+# Chặn file cơ sở dữ liệu (Tránh đẩy database thật lên GitHub)
+*.db
+*.sqlite
+*.sqlite3
+
+# Chặn các file log lỗi
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Chặn file hệ điều hành sinh ra
+.DS_Store
+Thumbs.db
